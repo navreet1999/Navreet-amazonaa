@@ -12,8 +12,11 @@ import ShippingScreen from './Screens/ShippingScreen';
 import PaymentScreen from './Screens/PaymentScreen';
 import PlaceOrderScreen from './Screens/PlaceOrderScreen';
 import OrderScreen from './Screens/OrderScreen';
+import ProfileScreen from './Screens/ProfileScreen';
+import OrdersScreen from './Screens/OrdersScreen';
 
 function App() {
+  ;
 
   const userSignin = useSelector(state => state.userSignin);
   const { userInfo } = userSignin;
@@ -40,24 +43,41 @@ function App() {
               userInfo ? <Link to="/profile">{userInfo.name}</Link> :
                 <Link to="/signin">Sign In</Link>
             }
+            {userInfo && userInfo.isAdmin && (
+              <div className="dropdown">
+                <a href="#" >Admin</a>
+                <ul className="dropdown-content">
+                  <li>
+                    <Link to="/orders">Orders</Link>
+                    <Link to="/products">Products</Link>
+                  </li>
+                </ul>
+              </div>
+            )}
           </div>
         </header>
         <aside className="sidebar">
           <h3>Shopping Categories</h3>
           <button className="sidebar-close-button" onClick={closeMenu}>x</button>
-          <ul>
+          <ul className="categories">
             <li>
-              <a href="index.html">Pants</a>
+              <Link to="/category/Watches">Watches</Link>
             </li>
 
             <li>
-              <a href="index.html">Shirts</a>
+              <Link to="/category/mobile">Mobiles</Link>
+            </li>
+
+            <li>
+              <Link to="/category/headphones">Headphones</Link>
             </li>
 
           </ul>
         </aside>
         <main className="main">
           <div className="content">
+            <Route path="/orders" component={OrdersScreen} />
+            <Route path="/profile" component={ProfileScreen} />
             <Route path="/order/:id" component={OrderScreen} />
             <Route path="/products" component={ProductsScreen} />
             <Route path="/shipping" component={ShippingScreen} />
@@ -67,6 +87,7 @@ function App() {
             <Route path="/register" component={RegisterScreen} />
             <Route path="/product/:id" component={ProductScreen} />
             <Route path="/cart/:id?" component={CartScreen} />
+            <Route path="/category/:id" component={HomeScreen} />
             <Route path="/" exact={true} component={HomeScreen} />
 
 
