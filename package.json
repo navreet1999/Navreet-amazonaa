@@ -21,8 +21,8 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.6",
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.6",
     "nodemon": "^2.0.3"
