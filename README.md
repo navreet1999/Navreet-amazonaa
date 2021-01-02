@@ -1,4 +1,21 @@
+![Screenshot (6)](https://user-images.githubusercontent.com/44254251/103458465-8deebd80-4d2e-11eb-91bf-eb14ee75560c.png)
+![Picture2](https://user-images.githubusercontent.com/44254251/103458524-0e152300-4d2f-11eb-81fc-1ba91d6c9c61.png)
+
+![Screenshot (7)](https://user-images.githubusercontent.com/44254251/103458470-9941e900-4d2e-11eb-936f-ad44e795bf00.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/44254251/103458472-a068f700-4d2e-11eb-9774-6c258382aec3.png)
+![Screenshot (10)](https://user-images.githubusercontent.com/44254251/103458475-a8289b80-4d2e-11eb-8eb2-7402091933ea.png)
+![Screenshot (11)](https://user-images.githubusercontent.com/44254251/103458478-aced4f80-4d2e-11eb-8cf6-54e505eec13b.png)
+![Screenshot (13)](https://user-images.githubusercontent.com/44254251/103458482-b5458a80-4d2e-11eb-9792-0fc9d50a9efa.png)
+![Screenshot (14)](https://user-images.githubusercontent.com/44254251/103458485-bc6c9880-4d2e-11eb-87b0-d34af8d29f20.png)
+![Screenshot (15)](https://user-images.githubusercontent.com/44254251/103458491-ca221e00-4d2e-11eb-99ed-ec1a13f59964.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/44254251/103458493-cf7f6880-4d2e-11eb-948c-a189e7a77dfe.png)
+![Screenshot (17)](https://user-images.githubusercontent.com/44254251/103458497-d5754980-4d2e-11eb-91ab-dd24345d7de3.png)
+![Screenshot (18)](https://user-images.githubusercontent.com/44254251/103458499-dc9c5780-4d2e-11eb-93ed-ebc756798ff6.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
